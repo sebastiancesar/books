@@ -1,0 +1,13 @@
+<h4>Search</h4>
+<div class="padding-bottom">
+	<input type="text"
+		ng-model="vm.bookName"
+		placeholder="search by title"
+		uib-typeahead="book for book in vm.books |  filterBook: $viewValue | limitTo: 8"
+		typeahead-no-results="noResults"
+		typeahead-on-select="vm.selectItem($item)"
+		typeahead-editable="true"
+		typeahead-min-length="0"
+		typeahead-template-url="scripts/filters/search.typeahead.html"
+		class="form-control">
+</div>

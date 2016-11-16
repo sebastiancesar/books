@@ -1,0 +1,7 @@
+<div class="row">
+		<single-book item="book"
+			type="vm.displayAs"
+			dir-paginate="book in vm.books | filter:q | itemsPerPage: vm.pageSize"
+			current-page="vm.currentPage">
+		</single-book>
+</div>

@@ -1,0 +1,96 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.button-filter {
+    width: 100%;
+}
+
+.caption {
+    height: 100px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.display-list .thumbnail img {
+    display: inline-block;
+}
+
+.thumbnail img {
+    height: 180px;
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.img-avatar {
+    width: 180px;
+    height: 180px;
+}
+
+.recommended-books .single-book {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.bg-grey {
+    background-color: #f7f7f9;
+}
+
+.padding-top {
+    margin-top: 20px;
+}
+
+.padding-bottom {
+    margin-bottom: 20px;
+}
+
+.truncate {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.display-list .caption, .display-list .ratings {
+    display: inline-block;
+}
+
+.book-item-list {
+    border-bottom: 1px solid #f7f7f9;
+    margin-bottom: 20px;
+}

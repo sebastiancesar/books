@@ -1,0 +1,19 @@
+<h4> Category </h4>
+<ul class="list-group">
+  <li class="list-group-item" 
+  	ng-repeat="choice in vm.items">
+    <a href="" 
+    	ng-class="{'selected': choice.selected}" 
+    	ng-click="vm.select(choice)">
+    	{{choice.label}}
+    </a>
+
+    <a href="" ng-if="choice.selected" 
+      class="pull-right" 
+      ng-click="vm.remove(choice)">
+    	
+      <i class="glyphicon glyphicon-remove"></i>
+    
+    </a>
+  </li>
+</ul>

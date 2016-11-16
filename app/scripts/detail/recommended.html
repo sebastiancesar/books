@@ -1,0 +1,10 @@
+<div class="col-lg-8 col-lg-offset-2 text-center bg-grey">
+	<h3>Similar reading</h3>
+	<p> If you liked this books, we recommendend you check out these emerging titles. </p>
+  <div class="row recommended-books">
+  	<single-book item="item" 
+  		type="'grid'"
+  		ng-repeat="item in vm.books track by item.id"> 
+  	</single-book>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+<div ng-if="vm.type === 'grid'"
+    class="col-sm-3 col-lg-3 col-md-3 single-book">
+    <div class="thumbnail">
+    
+        <img ng-src="{{vm.item.imgSrc}}" alt="">
+        <div class="caption">
+            <h5 class="truncate">
+                <a href="" 
+                  ng-click="vm.bookDetail(vm.item)">
+                    {{vm.item.name}}
+                </a>
+            </h5>
+            <p class="truncate">by {{vm.item.author.name}}</p>
+        </div>
+        <div class="ratings">
+            <p class="pull-right">{{vm.item.publishedFormatted}}</p>
+            <p>
+              {{vm.item.likes}}  &hearts;
+            </p>
+        </div>
+    </div>
+</div>
+<div ng-if="vm.type === 'list'"
+    class="book-item-list display-list">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <img ng-src="{{vm.item.imgSrc}}" alt="">
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="">
+                <h5>
+                    <a href="" 
+                      ng-click="vm.bookDetail(vm.item)">
+                        {{vm.item.name}}
+                    </a>
+                </h5>
+                <p>by {{vm.item.author.name}}</p>
+            </div>
+            <p> {{vm.item.introduction[0].content | limitTo: 200}} ...</p>
+            <div class="ratings pull-right">
+                <p>{{vm.item.publishedFormatted}}</p>
+                <p>
+                  {{vm.item.likes}}  &hearts;
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

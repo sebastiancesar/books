@@ -1,0 +1,12 @@
+<h4> Display as 
+	<button class="btn btn-sm btn-default"
+		ng-class="{'active': (vm.selected === 'grid')}"
+		ng-click="vm.setDisplay('grid')">
+		<i class="glyphicon glyphicon-th"></i>
+	</button>
+	<button class="btn btn-sm btn-default"
+		ng-click="vm.setDisplay('list')" 
+		ng-class="{'active': (vm.selected === 'list')}">
+		<i class="glyphicon glyphicon-th-list"></i>
+	</button>
+</h4>
