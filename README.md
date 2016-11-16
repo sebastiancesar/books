@@ -1,11 +1,10 @@
-### For the implementation I chose a stack of technologies provided in the angular generator https://github.com/yeoman/generator-angular#readme (0.15.1.
-) because I found it very complete and It's a good starting point for a client side project:
+ For the implementation I chose a stack of technologies provided in the angular generator https://github.com/yeoman/generator-angular#readme (0.15.1.) because I found it very complete and It's a good starting point for a client side project:
     - AngularJS (1.5)
     - Bootstrap
     - Jasmine
     - Grunt
   
-  ## Keeping in mind that is a test/prototype and not a real production-ready application, I know there are many thing to do to improve the quality, for example: 
+   Keeping in mind that is a **test/prototype** and not a real production-ready application, I know there are many thing to do to improve the quality, for example: 
     - Unit testing (karam+jasmine is already configured in the generator)
     - i18n
     - Backend pagination and search
